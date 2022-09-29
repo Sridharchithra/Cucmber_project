@@ -9,7 +9,7 @@ public class Exception_Creation {
 			System.out.println("true");
 		}
 		else {
-			throw new Exception();
+			throw new Exception("sri");
 		
 		}
 

@@ -1,4 +1,4 @@
-package com.Task;
+package com.Exceptions;
 
 public class Sample {
 	
@@ -10,11 +10,14 @@ public class Sample {
 		} catch (Exception e) {
 			
 			e.printStackTrace();
-			System.exit(0);
-		}finally {
+			System.out.println(e+"sri");
+	
+		}
+		
 		System.out.println("arithmetic");
 		
-	}}
+	
+	}
 	public static void main(String[] args) {
 		Sample o=new Sample();
 		o.divide();

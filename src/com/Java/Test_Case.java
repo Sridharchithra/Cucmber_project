@@ -1,4 +1,4 @@
-package com.Programs;
+package com.Java;
 
 public class Test_Case {
 	public static void main(String[] args) {

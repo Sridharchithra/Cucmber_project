@@ -26,4 +26,5 @@ public class Static_Variables {
 		System.out.println(b);
 		System.out.println(c);
 	}
-}
+}//calling a static variable by class name
+//caling a satic variabe by class name object reference  name

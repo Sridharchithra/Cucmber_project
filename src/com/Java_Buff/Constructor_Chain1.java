@@ -22,6 +22,6 @@ public class Constructor_Chain1 {
 	}
 
 	public static void main(String[] args) {
-		Constructor_Chain1 b = new Constructor_Chain1(3699799);
+		Constructor_Chain1 b = new Constructor_Chain1();
 	}
 }

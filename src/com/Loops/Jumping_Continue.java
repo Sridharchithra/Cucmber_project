@@ -6,6 +6,7 @@ public class Jumping_Continue {
 		while(n<10) {
 	n++;
 		if(n==7) {
+		//	System.out.println(n);
 		continue;	}
 	
 		System.out.println(n);

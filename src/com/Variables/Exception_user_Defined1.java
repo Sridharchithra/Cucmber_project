@@ -11,9 +11,9 @@ int b=20;
     		System.out.println("true");
     	}
     	else {
-    	throw new Exception_user_Defined("sri exception");
+    	throw new Exception_user_Defined("with construtor");
     	}
-    }catch( Exception_user_Defined e) {
+    }catch( Exception e) {
     	System.out.println(e);
     }
 

@@ -19,5 +19,6 @@ public class Class_Variables {
 		 System.out.println(q.a);
 		 System.out.println(q.b);
 		 System.out.println(q.c);
+		 System.out.print("name:"+q.a+"\nid:"+q.c);
 	}
 }

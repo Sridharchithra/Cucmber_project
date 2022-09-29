@@ -4,7 +4,7 @@ public class Prime2 {
 
 	public static void main(String[] args) {
 int c=0;
-	for (int n = 1; n <=500; n++) {
+	for (int n = 5; n <=20; n++) {
 		
 	boolean flag=true;
 	
@@ -12,10 +12,12 @@ int c=0;
 		
 		if(n%i==0) {
 			flag=false;
+		    break;
 		}}
 		if(flag==true) {
-			System.out.println(n+":is a prime number ");
 			c++;
+			System.out.println(n+":is a prime number "+c);
+			
 		}
 		
 		else {
